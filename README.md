@@ -9,4 +9,5 @@ Collect Android projects about time ruler, or scale ruler view.
 <img src=https://github.com/hhbgk/TimeRuler/blob/master/pic/EventView.png width=320>
 
 ## Thanks
-[ScheduleTimeRuler](https://github.com/mcxinyu/ScheduleTimeRuler)
+1. [ScheduleTimeRuler](https://github.com/mcxinyu/ScheduleTimeRuler)
+2. [rotate-layout](https://github.com/rongi/rotate-layout)
