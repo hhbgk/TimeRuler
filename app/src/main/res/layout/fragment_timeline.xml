@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <com.haibox.scaleview.TimeLineView
+        android:id="@+id/tlvRuler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray" />
+
+    <com.haibox.scaleview.VerticalTimeScaleView
+        android:id="@+id/vtsvRuler"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:rotation="-90"
+        app:rulerColor="#FFF0F1F8"
+        app:rulerSize="8dp"
+        app:scaleColor="#FFE4E7F8"
+        app:scaleMarginTop="100dp"
+        app:scaleSize="2dp"
+        app:textColor="#66000000" />
+</LinearLayout>
