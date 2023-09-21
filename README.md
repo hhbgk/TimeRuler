@@ -11,3 +11,4 @@ Collect Android projects about time ruler, or scale ruler view.
 ## Thanks
 1. [ScheduleTimeRuler](https://github.com/mcxinyu/ScheduleTimeRuler)
 2. [rotate-layout](https://github.com/rongi/rotate-layout)
+3. [RulerView](https://github.com/zjun615/RulerView)
