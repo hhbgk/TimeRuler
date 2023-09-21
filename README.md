@@ -3,4 +3,4 @@
 Collect Android projects about time ruler, or scale ruler view.
 
 ## ScaleView
-![](https://github.com/hhbgk/TimeRuler/blob/master/pic/ScaleView.png)
+<img src=https://github.com/hhbgk/TimeRuler/blob/master/pic/ScaleView.png width=320>
