@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.haibox.timeruler.databinding.ActivityMainBinding
+import com.haibox.timeruler.ruler.EventTimelineFragment
 import com.haibox.timeruler.ruler.TimelineFragment
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val list: MutableList<String> = ArrayList()
         list.add(TimelineFragment::class.java.canonicalName as String)
-        list.add("Test2")
+        list.add(EventTimelineFragment::class.java.canonicalName as String)
         list.add("Test3")
 
         adapter.addData(list)

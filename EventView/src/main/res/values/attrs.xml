@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScheduleTimeRulerView">
+        <attr name="strv_cardShowTitle" format="boolean" />
+        <attr name="strv_cardShowText" format="boolean" />
+        <!-- 事件卡片宽度 -->
+        <attr name="strv_cardWidth" format="dimension|reference" />
+        <!-- 卡片左右边距 -->
+        <attr name="strv_cardMargin" format="dimension|reference" />
+        <!-- 事件卡片背景轴的颜色 -->
+        <attr name="strv_cardLineColor" format="color|reference" />
+        <!-- 卡片是否模拟胶卷 -->
+        <attr name="strv_cardSimulateFilmStyle" format="boolean" />
+        <!-- 胶卷边孔宽度 -->
+        <attr name="strv_cardFilmHoleWidth" format="dimension|reference" />
+        <!-- 胶卷边孔高度 -->
+        <attr name="strv_cardFilmHoleHeight" format="dimension|reference" />
+        <!-- 胶卷边孔建间的空隙 -->
+        <attr name="strv_cardFilmHoleGap" format="dimension|reference" />
+        <!-- 胶卷边孔起始偏移量 -->
+        <attr name="strv_cardFilmHoleOffset" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TimeRulerView">
+        <!-- 坐标系方向、垂直（默认）或横向 -->
+        <attr name="trv_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0" />
+            <!-- Defines a vertical widget. and it is default-->
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="trv_font" format="reference" />
+
+        <!--region 刻度尺基线-->
+        <!--是否显示刻度尺基线-->
+        <attr name="trv_showBaseline" format="boolean" />
+        <!--刻度尺基线相对view height的位置 0.0f～ 1.0f -->
+        <attr name="trv_baselinePosition" format="float" />
+        <attr name="trv_baselineWidth" format="dimension|reference" />
+        <!--刻度尺基线颜色-->
+        <attr name="trv_baselineColor" format="color|reference" />
+        <attr name="trv_baselineOutDayColor" format="color|reference" />
+        <!--endregion-->
+
+        <!--region 游标线-->
+        <!--是否显示游标线-->
+        <attr name="trv_showCursorLine" format="boolean" />
+        <attr name="trv_showCursorText" format="boolean" />
+        <!--游标相对view width的位置  0.0f～ 1.0f -->
+        <attr name="trv_cursorLinePosition" format="float" />
+        <attr name="trv_cursorLineWidth" format="dimension|reference" />
+        <attr name="trv_cursorLineColor" format="color|reference" />
+        <attr name="trv_cursorLineFull" format="boolean" />
+        <!--endregion-->
+
+        <!--region 刻度-->
+        <attr name="trv_keyTickHeight" format="dimension|reference" />
+        <attr name="trv_keyTickWidth" format="dimension|reference" />
+        <attr name="trv_keyTickColor" format="color|reference" />
+
+        <attr name="trv_showTick" format="boolean" />
+        <attr name="trv_minTickSpace" format="dimension|reference" />
+
+        <!--region 刻度文本-->
+        <attr name="trv_showTickText" format="boolean" />
+        <attr name="trv_tickTextSize" format="dimension|reference" />
+        <attr name="trv_tickTextColor" format="color|reference" />
+        <!--endregion-->
+    </declare-styleable>
+
+    <declare-styleable name="RotateLayout">
+        <!-- Child view of this layout will be rotated by this angle. -->
+        <attr name="angle" format="integer"/>
+    </declare-styleable>
+</resources>

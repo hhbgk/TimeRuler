@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.haibox.eventview.TimeRulerView
+        android:id="@+id/rv_ruler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:trv_tickTextSize="@dimen/text_10sp"
+        app:trv_orientation="horizontal"
+        app:trv_tickTextColor="#66000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/black"/>
+
+    <com.haibox.eventview.RotateLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:angle="-90">
+
+        <com.haibox.eventview.TimeRulerView
+            android:id="@+id/timeRuler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:trv_tickTextSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/search_bar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:trv_orientation="horizontal"
+            app:trv_baselineWidth="5dp" />
+    </com.haibox.eventview.RotateLayout>
+
+</LinearLayout>
